@@ -1,0 +1,219 @@
+.abc-sc{
+    text-align: center;
+    padding: 30px;
+    margin-top: 1em;
+}
+
+.projetos{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+
+.container-portfolio {
+    font-size: 16pt;
+    width: 400px;
+    text-align: left;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container-direct{
+    align-self: flex-end;
+  }
+
+
+  .container-box-project h5 {
+    font-size: 20pt;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .container-box-project p {
+    font-size: 16pt;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .container-box-project span {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .container-box-project li {
+    margin-left: 20px;
+    list-style: none;
+    color: #555;
+  }
+  
+  .container-box-project:hover h5{
+    color: #fca205;
+  }
+
+  #pizza {
+    margin-top: 1em;
+    background-color: #FF6347;
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    border: 2px solid #FF4500;
+    font-size: 16pt;
+    justify-self: end;
+  }
+  
+  #pizza:hover {
+    /*background-color: #FF4500*/
+    background-color: transparent;
+    color:#FF4500;
+    font-weight: 600;
+  }
+
+  .btn-return{
+    margin-top: 1.5em;
+  }
+  #back{
+    font-size: 16pt;
+  }
+
+  @media(max-width: 1100px){
+
+    h3 {
+      font-size: 18pt
+    }
+
+    .projetos{
+      display: flex;
+      gap: 2em;
+      justify-content: center;
+      margin-top: 2em;
+    }
+
+    .container-box-project h5 {
+      font-size: 16pt;
+    }
+    .container-box-project span {
+      font-size: 14pt;
+    }
+    .container-box-project p {
+      font-size: 14pt;
+    }
+
+    .container-box-project li {
+      font-size: 14pt;
+    }
+
+  }
+
+
+
+  @media(max-width: 1000px){
+
+    h3 {
+      font-size: 14pt
+    }
+
+    .projetos{
+      flex-wrap: wrap;
+      gap: 2em;
+      justify-content: center;
+      margin-top: 2em;
+    }
+
+    .container-box-project h5 {
+      font-size: 14pt;
+    }
+    .container-box-project span {
+      font-size: 13pt;
+    }
+    .container-box-project p {
+      font-size: 12pt;
+    }
+
+    .container-box-project li {
+      font-size: 12pt;
+    }
+
+  }
+
+ 
+
+  @media(max-width: 800px){
+
+    h3 {
+      font-size: 14pt
+    }
+
+    .projetos{
+      display: block;
+      gap: 2em;
+      justify-content: center;
+      margin-top: 2em;
+    }
+
+    .container-box-project h5 {
+      font-size: 14pt;
+    }
+    .container-box-project span {
+      font-size: 13pt;
+    }
+    .container-box-project p {
+      font-size: 12pt;
+    }
+
+    .container-box-project li {
+      font-size: 12pt;
+    }
+
+  }
+
+  @media(max-width: 550px){
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+
+    .projetos{
+      width: 100%;
+      padding: 10px;
+      display: block;
+      gap: 2em;
+      justify-content: center;
+      margin-top: 2em;
+    }
+
+    .container-portfolio{
+      width: 100%;
+      padding: 10px;
+    }
+
+    .container-box-project h5{
+      font-size: 1em;
+    }
+
+    .container-box-project p{
+      font-size: .8em;
+    }
+
+    #pizza {
+      margin-top: 1em;
+      background-color: #FF6347;
+      color: #fff; 
+      padding: 5px 10px;
+      border-radius: 5px; 
+      cursor: pointer; 
+      border: 2px solid #FF4500;
+      font-size: 14pt;
+      justify-self: end;
+    }
+  }
