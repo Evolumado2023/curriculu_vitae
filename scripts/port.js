@@ -3,5 +3,13 @@ window.document.getElementById('back').addEventListener('click', function() {
 })
 
 function wordpress(){
-    window.location = "http://askdrsilva.wordpress.com";
+    window.open("http://askdrsilva.wordpress.com");
+}
+
+window.document.getElementById('pizza').addEventListener('click', function() {
+    window.open("https://drsilva-clima-temp.netlify.app/");
+})
+
+function contact() {
+    alert("Ainda está em desenvolvimento. :)");
 }
