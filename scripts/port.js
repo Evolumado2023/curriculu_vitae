@@ -13,3 +13,17 @@ window.document.getElementById('pizza').addEventListener('click', function() {
 function contact() {
     alert("Ainda está em desenvolvimento. :)");
 }
+
+function showText() {
+    var text = document.getElementById("text-git-ap");
+    text.style.display = "block";
+}
+
+function hideText() {
+    var text = document.getElementById("text-git-ap");
+    text.style.display = "none";
+}
+
+function github(){
+    window.open("https://github.com/Darlison1398");
+}

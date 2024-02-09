@@ -47,10 +47,20 @@
     transition: transform 0.3s ease-in-out; 
 }
 
-
 .start-hover:hover {
     transform: scale(1.1); 
 }
+
+.btn-gt {
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#text-git-ap {
+    display: none;
+}
+
 
 @media (max-width :800px) {
     .container-tr{
@@ -60,5 +70,16 @@
         box-sizing: border-box;
         font-size: 14pt;
         font-family: sans-serif;
+    }
+
+    .title-desc{
+        font-size: 16pt;
+    }
+
+    .btn-gt {
+        margin-top: 1em;
+        width: 300px;
+        padding: 5px;
+        border-radius: 20px;
     }
 }
