@@ -61,6 +61,13 @@
     display: none;
 }
 
+.footer{
+    font-size: 16pt;
+}
+.footer i{
+    font-size: 23pt;
+    margin-left: 5px;
+}
 
 @media (max-width :800px) {
     .container-tr{
